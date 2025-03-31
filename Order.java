@@ -1,5 +1,5 @@
 public class Order{
-    private String orderName;
+    private final String orderName;
 
     public Order(String orderName){
         this.orderName=orderName;
